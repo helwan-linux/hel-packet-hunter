@@ -28,10 +28,10 @@ class PauseMenu(QWidget):
         resume_button.clicked.connect(self.resume_game_signal.emit)
         layout.addWidget(resume_button, alignment=Qt.AlignmentFlag.AlignCenter)
 
-        restart_button = QPushButton("Restart Level")
-        restart_button.setFixedSize(200, 50)
-        restart_button.clicked.connect(self.restart_game_signal.emit)
-        layout.addWidget(restart_button, alignment=Qt.AlignmentFlag.AlignCenter)
+        #restart_button = QPushButton("Restart Level")
+        #restart_button.setFixedSize(200, 50)
+        #restart_button.clicked.connect(self.restart_game_signal.emit)
+        #layout.addWidget(restart_button, alignment=Qt.AlignmentFlag.AlignCenter)
 
         main_menu_button = QPushButton("Main Menu")
         main_menu_button.setFixedSize(200, 50)
