@@ -1,0 +1,22 @@
+[
+    {
+        "name": "HTTP",
+        "description": "Hypertext Transfer Protocol. Used for transmitting web pages over the internet."
+    },
+    {
+        "name": "DNS",
+        "description": "Domain Name System. Translates human-readable domain names into IP addresses."
+    },
+    {
+        "name": "TCP",
+        "description": "Transmission Control Protocol. Provides reliable, ordered, and error-checked delivery of a stream of bytes."
+    },
+    {
+        "name": "UDP",
+        "description": "User Datagram Protocol. A fast, connectionless protocol, often used for streaming and gaming where speed is more important than reliability."
+    },
+    {
+        "name": "ICMP",
+        "description": "Internet Control Message Protocol. Used by network devices to send error messages and operational information."
+    }
+]

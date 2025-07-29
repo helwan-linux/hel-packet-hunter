@@ -1,0 +1,113 @@
+/* style.qss */
+
+/* General Window Background */
+QWidget {
+    background-color: #1a1a2e; /* Dark Blue/Purple */
+    color: #E0E0E0; /* Light Gray for general text */
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+}
+
+/* Main Title Labels (like "Packet Hunter" or "GAME OVER!") */
+QLabel#title_label {
+    font-size: 64px;
+    font-weight: bold;
+    color: #00FF00; /* Bright Green */
+}
+
+/* Smaller Titles (e.g., "About Packet Hunter", "How to Play", "Game Paused") */
+/* Note: If QLabel has no specific objectName, this applies.
+   Title labels with objectName "title_label" will override this. */
+QLabel {
+    font-size: 36px;
+    font-weight: bold;
+    color: white;
+}
+
+/* General Text Labels (e.g., instructions, scores, packet info) */
+QLabel {
+    font-size: 16px;
+    color: #AAAAAA; /* Gray for info text */
+}
+
+/* Buttons - Default Style for most buttons */
+QPushButton {
+    background-color: #4CAF50; /* Green */
+    color: white;
+    padding: 12px 25px;
+    border: none;
+    border-radius: 5px;
+    font-size: 20px;
+    font-weight: bold;
+    min-width: 180px; /* Ensures a minimum width for all buttons */
+    max-width: 250px; /* Optional: Sets a max width */
+}
+
+QPushButton:hover {
+    background-color: #45a049; /* Darker Green on hover */
+}
+
+/* Specific Button Styles - Overrides default where applicable */
+
+/* Start Game Button */
+QPushButton#start_button {
+    font-size: 24px;
+    padding: 15px 30px;
+    background-color: #00CC00; /* Brighter Green */
+}
+
+QPushButton#start_button:hover {
+    background-color: #00B300; /* Darker Brighter Green on hover */
+}
+
+/* Secondary Buttons (Settings, About, Help) - in Main Menu */
+QPushButton[text="Settings"],
+QPushButton[text="About"],
+QPushButton[text="Help"] {
+    background-color: #555555; /* Dark Gray */
+}
+
+QPushButton[text="Settings"]:hover,
+QPushButton[text="About"]:hover,
+QPushButton[text="Help"]:hover {
+    background-color: #444444; /* Darker Gray on hover */
+}
+
+/* Exit/Main Menu button (Red) */
+QPushButton[text="Exit Game"],
+QPushButton[text="Main Menu"] {
+    background-color: #F44336; /* Red */
+}
+
+QPushButton[text="Exit Game"]:hover,
+QPushButton[text="Main Menu"]:hover {
+    background-color: #D32F2F; /* Darker Red on hover */
+}
+
+/* Restart Game button (Amber/Orange) */
+QPushButton[text="Restart Game"] {
+    background-color: #FFC107; /* Amber */
+    color: black; /* Black text for contrast */
+}
+
+QPushButton[text="Restart Game"]:hover {
+    background-color: #e0a800; /* Darker Amber on hover */
+}
+
+/* Info Panel on Game Screen */
+QWidget#info_panel {
+    background-color: #282840; /* Slightly darker than main background */
+    border-left: 1px solid #404060; /* Separator line */
+    padding: 10px; /* Padding inside the panel */
+}
+
+QLabel#packet_name_label { /* Specific label for packet name in InfoPanel */
+    font-size: 16px;
+    font-weight: bold;
+    color: #E0E0E0; /* Default text color */
+}
+
+QLabel#packet_desc_label { /* Specific label for packet description in InfoPanel */
+    font-size: 14px;
+    color: #CCCCCC; /* Slightly darker text color */
+}
