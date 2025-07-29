@@ -1,0 +1,27 @@
+[
+    {
+        "name": "DDoS",
+        "protocol": "UDP",
+        "description": "Distributed Denial of Service. Overloads a server with traffic to make it unavailable. Often uses UDP."
+    },
+    {
+        "name": "ARP Spoof",
+        "protocol": "ARP",
+        "description": "Address Resolution Protocol Spoofing. Attacker links their MAC address with the IP address of a legitimate computer or server."
+    },
+    {
+        "name": "SQL Injection",
+        "protocol": "HTTP",
+        "description": "Malicious SQL code injected into web forms to manipulate a database. Often seen in HTTP traffic."
+    },
+    {
+        "name": "Port Scan",
+        "protocol": "TCP",
+        "description": "Attempt to identify open ports on a host, often a precursor to an attack. Can involve many TCP SYNs."
+    },
+    {
+        "name": "Malware Download",
+        "protocol": "HTTP",
+        "description": "Malicious software being downloaded onto a system, often disguised as legitimate files. Carried over HTTP."
+    }
+]
