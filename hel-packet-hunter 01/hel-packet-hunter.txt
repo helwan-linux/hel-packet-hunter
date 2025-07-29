@@ -1,0 +1,34 @@
+hel-packet-hunter/
+├── main.py
+├── config.py
+├── game/
+│   ├── __init__.py
+│   ├── game_logic.py
+│   ├── sniffer.py
+│   ├── packet.py
+│   ├── network_grid.py
+│   └── game_events.py
+├── ui/
+│   ├── __init__.py
+│   ├── main_window.py
+│   ├── game_screen.py
+│   ├── main_menu.py
+│   ├── settings_menu.py
+│   ├── game_over_screen.py
+│   ├── widgets/
+│   │   ├── __init__.py
+│   │   └── info_panel.py
+│   └── resources.py
+├── assets/
+│   ├── icons/
+│   │   └── game_icon.png
+│   ├── images/
+│   ├── sounds/
+│   │   ├── alert.wav
+│   │   └── background_music.mp3
+│   └── fonts/
+│       └── pixel_font.ttf
+├── data/
+│   ├── protocols.json
+│   └── threats.json
+└── README.md
